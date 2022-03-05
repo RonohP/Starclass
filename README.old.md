@@ -1,2 +1,0 @@
-# Starclass
-Learning Management Platfrom
