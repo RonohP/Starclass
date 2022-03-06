@@ -9,7 +9,7 @@ import ArticleIcon from '@mui/icons-material/Article';
 function Course() {
   const opts = {
     height: "600",
-    width: "1200",
+    width: "1000",
     playerVars: {
       autoplay: 1,
     },
