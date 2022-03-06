@@ -22,16 +22,16 @@ function Course() {
   }
 
   return (
-    <main>
+    <main className="course-container">
       <div className="youtube-container">
         <h3>HTML Course</h3>
         <YouTube videoId="pQN-pnXPaVg" opts={opts} onReady={videoOnReady} />
       </div>
       <div className="youtube-card">
         <h3>Course Description</h3>
-        <div className="author">
-          <div className="author-icon">
-            <img src={AuthorImg} alt="Author" className="author-img" />
+        <div className="video-author">
+          <div className="video-author-icon">
+            <img src={AuthorImg} alt="Author" className="video-author-img" />
           </div>
           <span>Traversy Media</span>
         </div>
