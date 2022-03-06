@@ -1,0 +1,58 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 5rem;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: auto;
+    position: sticky;
+    align-content: center;
+    background: #292b2f;
+    color: #efefef;
+}
+
+.logo{
+    margin: 0rem 0.5rem 2.5rem -0.4rem;
+
+}
+
+.icon{
+    text-align: center;
+    padding: 0.75rem;
+    margin: 0rem 0.5rem 1rem 0.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.faq{
+    margin-top: 0;
+}
+
+.logout{
+    bottom: 0;
+    position: absolute;
+    margin-left: -9px;
+    margin-bottom: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: #efefef;
+}
+
+.link .logo{
+    color: #ffb500;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #efefef;
+}
+
+.side-active{
+    background-color: #ffb500;
+    font-weight: bolder;
+    color: #292b2f;
+    fill: #292b2f;
+}

@@ -1,0 +1,59 @@
+.search-bar{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    background-color: #2e3036;
+    color: #ffffff;
+}
+
+.main-logo{
+    color: #ffb500;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    width: 60%;
+}
+
+.search{
+    width: 20%;
+    margin: 0.5rem;
+}
+
+.search input[type=text]{
+    border-radius: 5px;
+    padding: 5px 3px;
+    margin: 5px 2px;
+}
+
+.notification{
+    width: 5%;
+    margin: 0.5rem;
+    
+}
+
+.notification button{
+    font-size: 36px;
+    line-height: 40px;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    text-align: center;
+    position: relative;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.notification-label{
+    width: 3px;
+    height: 3px;
+    background-color: #ce331d;
+    color: #ffffff;
+    position: absolute;
+    padding: 3px;
+    border-radius: 99px;
+
+}
+
+.profile{
+    width: 15%;
+}
