@@ -18,25 +18,13 @@ function MainPage() {
         <Searchbar />
 
         <Routes>
-          <Route path={'/dashboard'}>
-            <Dashboard />
-          </Route>
-          <Route exact path={'/course'}>
-            <Course />{' '}
-          </Route>
-          <Route exact path={'/podcast'}>
-            <Podcast />{' '}
-          </Route>
-          <Route exact path={'/blog'}>
-            <Blog />{' '}
-          </Route>
-          <Route exact path={'/communities'}>
-            <Communities />{' '}
-          </Route>
-          <Route exact path={'/faq'}>
-            <FAQ />{' '}
-          </Route>
-          <Route component={Dashboard} />
+          <Route exact path={'/course'} element={<Course />} />
+          <Route exact path={'/dashboard'} element={<Dashboard />} />
+          <Route exact path={'/podcast'} element={<Podcast />} />
+          <Route exact path={'/blog'} element={<Blog />} />
+          <Route exact path={'/communities'} element={<Communities />} />
+          <Route exact path={'/faq'} element={<FAQ />} />
+          <Route element={Dashboard} />
         </Routes>
       </div>
     </div>
