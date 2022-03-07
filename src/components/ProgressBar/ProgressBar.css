@@ -1,0 +1,66 @@
+.progress.card{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-bar{
+    margin: 10px 0px;
+}
+
+.bar {
+    background: #f2f3f5;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding-right: 5px ;
+    display: flex;
+    height: 10px;
+    width: 15rem;
+}
+
+.progress-value{
+    border-radius: 100px;
+    height: 10px;
+    width: 0;
+}
+
+.progress-value.hw{
+    background: #ce331d;
+    box-shadow: 0 10px 40px -10px #ce331d;
+    animation: loadhw 3s normal forwards;
+}
+
+.progress-value.vw{
+    background: #ffb500;
+    box-shadow: 0 10px 40px -10px #ffb500;
+    animation: loadvw 3s normal forwards;
+}
+
+.progress-value.fn{
+    background: #00ba4a;
+    box-shadow: 0 10px 40px -10px #00ba4a;
+    animation: loadfn 3s normal forwards;
+}
+
+@keyframes loadhw{
+    0% {width: 0;}
+    100% {width: 25%;}
+}
+
+@keyframes loadvw{
+    0% {width: 0;}
+    100% {width: 60%;}
+}
+
+@keyframes loadfn{
+    0% {width: 0;}
+    100% {width: 94%;}
+}
+
+.percentage{
+    float: right;
+    font-weight: 400;
+    font-size: 12px;
+}
