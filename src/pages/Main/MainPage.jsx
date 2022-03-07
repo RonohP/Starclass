@@ -15,7 +15,7 @@ import AppState from '../../components/appstate';
 
 function MainPage() {
   return (
-    <Appstate>
+    <AppState>
     <div className='main'>
       <Sidebar />
       <div className='content'>
@@ -36,7 +36,7 @@ function MainPage() {
         </Routes>
       </div>
     </div>
-    </Appstate>
+    </AppState>
   );
 }
 
