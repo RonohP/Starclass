@@ -3,5 +3,14 @@
     background-color: #292b2f;
     display: flex;
     flex-direction: column;
+    height: 580px;
+}
+
+.blog-container{
+    height: 580px;
+}
+
+.blog h1{
+    color: #ffb500;
 }
 
