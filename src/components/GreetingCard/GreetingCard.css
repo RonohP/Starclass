@@ -1,0 +1,34 @@
+.greeting.card{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+}
+
+.greeting-icon{
+    text-align: center;
+    margin: 1rem 0.5rem;
+    padding: 1.5rem 0;
+
+}
+
+.greeting-icon .logo{
+    text-shadow: 0 0 10px #ffb500;
+}
+
+.greeting-profile{
+    margin: 1rem 0.5rem;
+    padding: 1.5rem 0;
+}
+
+.greeting-profile p{
+    margin: 15px 0;
+}
+
+.greeting-image{
+    width: 15rem;
+    padding: 1.5rem 0;
+}
+
+.greeting-image img{
+    height: 7rem;
+}

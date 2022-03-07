@@ -1,0 +1,58 @@
+.dashboard-content{
+    width: 100%;
+    background-color: #f2f3f5;
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 3rem 0rem;
+}
+
+.card{
+    box-shadow: 0 8px 24px rgb(109 141 173 / 16%);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0 1.5rem;
+    background-color: #ffffff;
+}
+.learning-content{
+    width: 100%;
+    margin-bottom: 3rem;
+
+}
+.learning{
+    display: flex;
+    flex-direction: row;
+}
+
+.learning-graph{
+    width: 70%;
+    margin: 2rem 1rem;
+    border-right: 1px solid #37393f;
+    height: 100%;
+}
+
+.learning-not-viewed{
+    width: 30%;
+    margin: 2rem 1rem;
+}
+
+.card-lessons{
+    box-shadow: 0 8px 24px rgb(109 141 173 / 16%);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0.2rem;
+    background-color: #f2f3f5;
+}
+
+.time-caption{
+    font-size: 11px;
+}
+
+.lesson-caption{
+    font-size: 12px;
+}

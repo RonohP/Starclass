@@ -6,7 +6,7 @@ function Searchbar() {
   return (
     <div className='search-bar'>
       <div className='main-logo'>
-        <p>Starclass LMS</p>
+        <h1>Starclass LMS</h1>
       </div>
       <form className='search'>
         <Search fontSize='small'className='search-icon'/>
