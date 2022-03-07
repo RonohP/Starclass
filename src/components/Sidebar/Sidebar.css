@@ -4,11 +4,11 @@
     width: 5rem;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: auto;
     overflow: auto;
     position: sticky;
     align-content: center;
-    background: #292b2f;
+    background: #2e3036;
     color: #efefef;
 }
 

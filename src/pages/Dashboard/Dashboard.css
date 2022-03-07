@@ -32,7 +32,7 @@
 .learning-graph{
     width: 70%;
     margin: 2rem 1rem;
-    border-right: 1px solid #37393f;
+    border-right: 2px solid #f2f3f5;
     height: 100%;
 }
 
@@ -55,4 +55,22 @@
 
 .lesson-caption{
     font-size: 12px;
+}
+
+.lesson-dash-content{
+    width:100%;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.lesson-cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.lesson{
+    width: 30%;
+    
 }

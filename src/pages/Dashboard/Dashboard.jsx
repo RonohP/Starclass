@@ -15,7 +15,7 @@ function Dashboard() {
           <div className='card learning'>
             <div className='learning-graph'>
               <h2>Learning efficiency</h2>
-              <AreaChart style={{textAlign: 'center'}}/>
+              <AreaChart style={{ textAlign: 'center' }} />
             </div>
             <div className='learning-not-viewed'>
               <h2>Not Viewed</h2>
@@ -43,7 +43,19 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className='lesson-dash-content'></div>
+        {/* <div className='lesson-dash-content'>
+          <div className='lesson-cards'>
+            <div className='html lesson card'>
+              <h3>HTML: The Basics</h3>
+            </div>
+            <div className='figma lesson card'>
+              <h3>Figma: Pro-Level</h3>
+            </div>
+            <div className='photoshop lesson card'>
+              <h3>Photoshop Retouch</h3>
+            </div>
+          </div>
+        </div> */}
       </div>
     );
 }

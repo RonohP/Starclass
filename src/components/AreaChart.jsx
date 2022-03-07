@@ -5,21 +5,12 @@ const options = {
   chart: {
     type: 'area',
     height: 300,
-    width: 500,
     zoom: {
       enabled: false,
     },
     toolbar: {
       show: false,
     },
-    responsive: [
-      {
-        breakpoint: 1050,
-        options: {
-          width: 900,
-        },
-      },
-    ],
   },
   dataLabels: {
     enabled: false,
@@ -34,6 +25,13 @@ const options = {
   stroke: {
     curve: 'smooth',
   },
+  responsive:[{
+    breakpoint: 1024,
+    options:{
+      width: 400,
+      height: 300,
+    },
+  }],
   labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
   xaxis: {
     type: 'ddd',
@@ -56,7 +54,7 @@ const options = {
 function AreaChart() {
   return (
     <div>
-      <ReactApexChart options={options} series={options.series} type='area' />
+      <ReactApexChart options={options} series={options.series} type='area' height={options.chart.height}/>
     </div>
   );
 }
