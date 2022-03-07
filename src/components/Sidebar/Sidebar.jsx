@@ -8,7 +8,7 @@ import {
   Logout,
   PeopleAltOutlined,
   PodcastsOutlined,
-  Quiz,
+  // Quiz,
   RssFeedOutlined,
 } from '@mui/icons-material';
 
@@ -65,14 +65,14 @@ function Sidebar() {
         <PeopleAltOutlined className='communities' fontSize='medium' />
       </NavLink>
 
-      <NavLink
+      {/* <NavLink
         to={'/faq'}
         className={({ isActive }) =>
           isActive ? activeClassName : 'icon nav-link'
         }
       >
         <Quiz className='faq ' fontSize='medium' />
-      </NavLink>
+      </NavLink> */}
 
       <Link to={'/login'} className='icon link'>
         <Logout className='logout' fontSize='medium' />
