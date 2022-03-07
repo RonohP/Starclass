@@ -24,7 +24,7 @@ function MainPage() {
           <Route exact path={'/blog'} element={<Blog />} />
           <Route exact path={'/communities'} element={<Communities />} />
           <Route exact path={'/faq'} element={<FAQ />} />
-          <Route element={Dashboard} />
+          <Route path ={'/'} element={<Dashboard/>} />
         </Routes>
       </div>
     </div>

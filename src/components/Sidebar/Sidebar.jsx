@@ -13,6 +13,7 @@ import {
 } from '@mui/icons-material';
 
 function Sidebar() {
+  let activeClassName = 'icon side-active';
   return (
     <div className='sidebar'>
       <Link to='/dashboard' className='icon link'>
@@ -21,48 +22,54 @@ function Sidebar() {
 
       <NavLink
         to={'/dashboard'}
-        className='icon nav-link'
-        activeclassname='side-active'
+        className={({ isActive }) =>
+          isActive ? activeClassName : 'icon nav-link'
+        }
       >
         <HomeOutlined className='dash ' fontSize='medium' />
       </NavLink>
 
       <NavLink
         to={'/course'}
-        className='icon nav-link'
-        activeclassname='side-active'
+        className={({ isActive }) =>
+          isActive ? activeClassName : 'icon nav-link'
+        }
       >
         <BookOutlined className='course ' fontSize='medium' />
       </NavLink>
 
       <NavLink
         to={'/podcast'}
-        className='icon nav-link'
-        activeclassname='side-active'
+        className={({ isActive }) =>
+          isActive ? activeClassName : 'icon nav-link'
+        }
       >
         <PodcastsOutlined className='podcast ' fontSize='medium' />
       </NavLink>
 
       <NavLink
         to={'/blog'}
-        className='icon nav-link'
-        activeclassname='side-active'
+        className={({ isActive }) =>
+          isActive ? activeClassName : 'icon nav-link'
+        }
       >
         <RssFeedOutlined className='blog ' fontSize='medium' />
       </NavLink>
 
       <NavLink
         to={'/communities'}
-        className='icon nav-link'
-        activeclassname='side-active'
+        className={({ isActive }) =>
+          isActive ? activeClassName : 'icon nav-link'
+        }
       >
         <PeopleAltOutlined className='communities' fontSize='medium' />
       </NavLink>
 
       <NavLink
         to={'/faq'}
-        className='icon nav-link'
-        activeclassname='side-active'
+        className={({ isActive }) =>
+          isActive ? activeClassName : 'icon nav-link'
+        }
       >
         <Quiz className='faq ' fontSize='medium' />
       </NavLink>

@@ -56,4 +56,6 @@
     font-weight: bolder;
     color: #292b2f;
     fill: #292b2f;
+    text-decoration: none;
+    border-radius: 10px;
 }
