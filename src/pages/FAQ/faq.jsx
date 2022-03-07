@@ -1,20 +1,15 @@
 import React from 'react';
 import './faq.css';
+import '../Blog/Blog.css'
 
 function FAQ() {
     return (
-      <div className='faq-content'>
-        {/* <h2>FAQ - Frequently Asked Questions</h2>
-        <div>
-          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            distinctio error magnam velit sed quaerat, ipsa sapiente itaque enim
-            natus, ad eos reiciendis numquam blanditiis. Cupiditate, cum
-            expedita. Fugiat, aliquam.
-          </p>
-        </div> */}
-      </div>
+      <main className='blog-container'>
+        <h1 className='blogs-title'>FAQ</h1>
+        <div className='blog'>
+          <h1>Coming soon...</h1>
+        </div>
+      </main>
     );
 }
 
