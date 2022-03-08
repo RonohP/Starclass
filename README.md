@@ -11,7 +11,7 @@ a career in computer technology, will connect women to resources like blogposts,
 ## Solution
 Our solution presented itself in the form of Starclass. A learning management system that allows its users to study anytime and anywhere.
 
-#### This is a MVP(Minimum Viable Product). To be continued...
+#### To be continued...
 
 ## Credits
 Design (https://www.behance.net/gallery/130465505/Starclass-Learning-Management-System-%28LMS%29).
